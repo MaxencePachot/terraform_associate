@@ -3,6 +3,8 @@ terraform associate certification - Mind map
 
 ✅ Terraform Associate (003) -- Final Revision Cheat Sheet
 
+![test](gitops.png)
+
 1\. Core Terraform Concepts
 
 IaC (Infrastructure as Code): Declarative approach using .tf files.
