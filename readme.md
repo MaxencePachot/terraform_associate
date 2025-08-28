@@ -5,6 +5,8 @@ terraform associate certification - Mind map
 
 ![test](gitops.png)
 
+OPEN BOOK : www.terraform-best-practices.com
+
 1\. Core Terraform Concepts
 
 IaC (Infrastructure as Code): Declarative approach using .tf files.
@@ -234,3 +236,9 @@ Know how to authenticate providers.
 No deep coding, but syntax & logic matter.
 
 Expect Terraform Cloud, remote backends, and basic Sentinel concepts.
+
+--
+
+Questions -
+
+Cloud init or packer ? (voir image)![alt text](image.png)
