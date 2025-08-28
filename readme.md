@@ -242,3 +242,5 @@ Expect Terraform Cloud, remote backends, and basic Sentinel concepts.
 Questions -
 
 Cloud init or packer ? (voir image)![alt text](image.png)
+
+refresh only mode - Pas compris l'exemple ou dû moins pas sûr à 100%
