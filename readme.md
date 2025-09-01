@@ -237,6 +237,59 @@ No deep coding, but syntax & logic matter.
 
 Expect Terraform Cloud, remote backends, and basic Sentinel concepts.
 
+-help to have the help on a command - Example "terraform apply -help"
+
+Sentinel – Terraform Associate (003) Cheat Sheet
+1️⃣ Qu’est-ce que Sentinel ?
+
+Moteur de “policy as code” développé par HashiCorp.
+
+Permet de définir et appliquer des règles de sécurité, conformité et bonnes pratiques.
+
+Intégré uniquement dans Terraform Cloud / Enterprise (pas dans Terraform OSS).
+
+2️⃣ Pourquoi l’utiliser ?
+
+Empêcher des déploiements non conformes :
+
+VM trop grosses
+
+Tags obligatoires manquants
+
+Ressources sensibles non chiffrées
+
+Ajouter une couche de gouvernance et contrôle automatisé dans le workflow Terraform.
+
+3️⃣ Quand s’exécute Sentinel ?
+
+Pendant le terraform plan, avant l’apply.
+
+Il valide le plan et peut bloquer le déploiement si une règle est violée.
+
+4️⃣ Ce que l’examen peut demander
+
+Concepts : rôle de Sentinel, différence avec Terraform OSS.
+
+Workflow : quand il agit dans Terraform Cloud / Enterprise.
+
+Comparaison avec OPA : Sentinel = intégré HashiCorp, OPA = open-source et multi-plateformes.
+
+Règles possibles : tags obligatoires, tailles de VM interdites, règles de sécurité.
+
+5️⃣ Ce qu’il ne faut pas savoir pour l’examen
+
+Tu n’as pas besoin d’écrire du code Sentinel.
+
+Pas besoin de connaître le DSL en détail.
+
+✅ Astuce pratique
+
+Retiens juste :
+
+Sentinel = contrôle automatique des plans Terraform dans Cloud/Enterprise avant apply.
+
+Tout le reste = Terraform Cloud / Enterprise concepts + sécurité/conformité.
+
 --
 
 Questions -
